@@ -2,9 +2,9 @@ package banco;
 
 public class Conta {
 
-	private int numero;
-	private double saldo;
-	private Cliente cliente;
+	protected int numero;
+	protected double saldo;
+	protected Cliente cliente;
 	
 	public int getNumero() {
 		return numero;
